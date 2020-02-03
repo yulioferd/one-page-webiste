@@ -1,0 +1,285 @@
+body{
+  margin: 0%;
+}
+h1{
+  font-family:century gothic;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1d3e42;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+li a:hover {
+    background-color: #29565b;
+}
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.center {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+}
+.room {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+}
+.mahasiswa {
+    bottom: 25%;
+    left: 0px;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    background-color: #523554;
+    position: fixed;
+}
+.price {
+    position: fixed;
+    bottom: 33%;
+    left: 0px;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    background-color: #523554;
+}
+.slideshow-container {
+  width: 100%;
+  margin: auto;
+  top: 50px;
+  position: block;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/*article*/
+.left-content {
+  font-weight: bold;
+  float: left;
+  margin-left: 0%;
+  margin-top: 5%;
+}
+.right-content {
+  font-weight: bold;
+  float: left;
+  margin-left: 5%;
+  margin-top: 0%;
+}
+.w3-containerlogin{
+    background-color: white;
+}
+.text{
+  margin-left: 300px;
+  font-size: 10px;
+}
+.text2{
+  float: left;
+  margin-left: 12%;
+  font-size: 10px;
+}
+div.polaroid {
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 12%;
+  font-size: 10px;
+}
+div.polaroid2 {
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 450px;
+  font-size: 10px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 10px;
+}
+p{
+  font-size: 10px;
+}
+
+.cafe{
+  background-color: #7f989b;
+  color: white;
+}
+h3{
+  padding-top: 5%
+}
+
+/*cafe*/
+div.gallery {
+    margin-left: 18px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*park*/
+
+div.polaroidp {
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 0px;
+  margin-left: 100px;
+  font-size: 10px;
+}
+div.polaroid2p {
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 0px;
+  margin-left: 350px;
+  font-size: 10px;
+}
+.left-content2 {
+  font-weight: bold;
+  float: left;
+  margin-left: 0%;
+  margin-top: 2%;
+}
+.right-content2 {
+  font-weight: bold;
+  float: left;
+  margin-left: 0%;
+  margin-top: 2%;
+}
+
+/*footer*/
+.footer{
+  background-color: black;
+ }
+ .w3-centerfooter{
+  padding-top: 50px;
+  text-align: center;
+  color:white;
+  font-size: 18px;
+  font-family: century gothic;
+ }
+ .w3-center w3-large{
+  color: white;
+
+ }
+ .fb{
+  float: left;
+ }
+
+/*header {
+height: 80px;
+text-align: center;
+background-color:#7a087a;
+color:white;
+font-family:century gothic;
+font-size:50px;
+}
+
+section {
+float: left;
+width: 1100px;
+height: 350px;
+background-color:#997197;
+color:white;
+
+}
+
+article {
+float: left;
+height: 300px;
+width: 700px;
+margin: 20px 50px 50px 30px;
+text-align: center;
+color:white;
+font-size:17px;
+}
+
+aside {
+margin: 20px 50px 50px 800px;
+height: 400px;
+width: 400px; 
+color:white;
+}
+
+footer {
+text-align:center;
+color:white;
+background-color: #6d236d;
+font-size:17px;
+font-family:Gill Sans MT Condensed;
+}*/
